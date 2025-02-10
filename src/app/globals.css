@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-primary: var(--font-ibm-plex-sans);
+}
+
+body {
+  font-family: var(--font-primary), -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+nav:hover {
+  background-color: #000112;
+}
+
+
+
+@layer components {
+  .item {
+      @apply flex items-center gap-2 hover:bg-gray-100 px-2 py-1 rounded-md transition;
+  }
+}
+
+
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
