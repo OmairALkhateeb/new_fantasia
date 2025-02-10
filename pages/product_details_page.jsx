@@ -1,4 +1,5 @@
-"use client"; /////////////
+"use client"; ///////
+// import { useEffect } from "react";
 
 
 import { IBM_Plex_Sans } from "next/font/google";

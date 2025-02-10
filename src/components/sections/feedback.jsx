@@ -1,6 +1,7 @@
 // "use client";
 
-"use client"; /////////////
+"use client"; ///////
+// import { useEffect } from "react";
 
 import React, { useEffect, useRef } from "react";
 
